@@ -94,6 +94,14 @@ function setNodeTemplate(obj, diagram) {
     desigText.style.fill = "none";
     desigText.style.textWrapping = "Wrap";
     desigText.id = obj.id + "_desig";
+    let marriedTo = new TextElement();
+    marriedTo.margin = { left: 0, right: 0, top: 5, bottom: 0 };
+    marriedTo.content = obj.data.MarriedTo;
+    marriedTo.style.color = "black";
+    marriedTo.style.strokeColor = "none";
+    marriedTo.style.fill = "none";
+    marriedTo.style.textWrapping = "Wrap";
+    marriedTo.id = obj.id + "_marriedTo";
     innerStack.children = [text, desigText];
     content.children = [image, innerStack];
     return content;

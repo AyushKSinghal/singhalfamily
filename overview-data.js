@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.data = [
     {
         'Id': 30, 
-        'Name': 'Ishaar Das 1', 
+        'Name': 'Ishaar Das', 
         'Designation': 'Businessman',
-        'MarriedTo': '',
+        'MarriedTo': '*',
         'SpouseCity': '',
         'MarriageDate': '',
         'JamanTithi': '',
