@@ -31,6 +31,8 @@ export class Overview extends SampleBase {
          getNodeDefaults={(obj, diagram) => {
             obj.height = 50;
             obj.style = { fill: "transparent", strokeWidth: 2 };
+            obj.expandIcon = { shape: 'Minus' };
+            obj.collapseIcon = { shape: 'Plus' };
             return obj;
         }} //Sets the default values of connector
          getConnectorDefaults={(connector, diagram) => {
