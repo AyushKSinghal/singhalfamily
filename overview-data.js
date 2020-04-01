@@ -167,7 +167,7 @@ exports.data = [
         'RatingColor': '#93B85A', 'ReportingPerson': 221
     },
     {
-        'Id': 223, 'Name': '*Gulgul', 'Designation': 'Student',
+        'Id': 223, 'Name': 'Vibhuti Singhal', 'Designation': 'Student',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
         'RatingColor': '#93B85A', 'ReportingPerson': 221
     },
