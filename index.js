@@ -5,45 +5,51 @@ import { HierarchicalTree, StackPanel, ImageElement, TextElement, SnapConstraint
 import { SampleBase } from './sample-base';
 import { DataManager } from "@syncfusion/ej2-data";
 import { data } from './overview-data';
+import { Tooltip } from '@syncfusion/ej2-popups';
+import { DropDownList } from '@syncfusion/ej2-dropdowns';
+import { Button } from '@syncfusion/ej2-buttons';
+
 let diagramInstance;
 export class Overview extends SampleBase {
     render() {
         return (<div className="control-pane">
         <div className="col-lg-12 control-section">
           <div className="content-wrapper">
-            <DiagramComponent id="diagram" ref={diagram => (diagramInstance = diagram)} width={"100%"} height={"590px"} tool={DiagramTools.ZoomPan} scrollSettings={{ scrollLimit: "Infinity" }} //Sets the constraints of the SnapSettings
-         snapSettings={{ constraints: SnapConstraints.None }} //Configrues organizational chart layout
-         layout={{
-            type: "OrganizationalChart",
-            margin: { top: 20 },
-            getLayoutInfo: (node, tree) => {
-                if (!tree.hasSubTree) {
-                    tree.orientation = "Vertical";
-                    tree.type = "Right";
-                }
-            }
-        }} //Sets the parent and child relationship of DataSource.
-         dataSourceSettings={{
-            id: "Id",
-            parentId: "ReportingPerson",
-            dataSource: new DataManager(data)
-        }} //Sets the default values of Node
-         getNodeDefaults={(obj, diagram) => {
-            obj.height = 50;
-            obj.style = { fill: "transparent", strokeWidth: 2 };
-            obj.expandIcon = { shape: 'Minus' };
-            obj.collapseIcon = { shape: 'Plus' };
-            return obj;
-        }} //Sets the default values of connector
-         getConnectorDefaults={(connector, diagram) => {
-            connector.targetDecorator.shape = "None";
-            connector.type = "Orthogonal";
-            return connector;
-        }} 
-        //customization of the node.
-        setNodeTemplate={(obj, diagram) => {
-            return setNodeTemplate(obj, diagram);
-        }}>
+            <DiagramComponent id="diagram" ref={diagram => (diagramInstance = diagram)} width={"100%"} height={"590px"} 
+              tool={DiagramTools.ZoomPan} 
+              scrollSettings={{ scrollLimit: "Infinity" }} //Sets the constraints of the SnapSettings
+              snapSettings={{ constraints: SnapConstraints.None }} //Configrues organizational chart layout
+              layout={{
+                  type: "OrganizationalChart",
+                  margin: { top: 10 },
+                  getLayoutInfo: (node, tree) => {
+                      if (!tree.hasSubTree) {
+                          tree.orientation = "Vertical";
+                          tree.type = "Right";
+                      }
+                  }
+              }} //Sets the parent and child relationship of DataSource.
+              dataSourceSettings={{
+                  id: "Id",
+                  parentId: "ReportingPerson",
+                  dataSource: new DataManager(data)
+              }} //Sets the default values of Node
+              getNodeDefaults={(obj, diagram) => {
+                  obj.height = 50;
+                  obj.style = { fill: "transparent", strokeWidth: 2 };
+                  obj.expandIcon = { shape: 'Minus' };
+                  obj.collapseIcon = { shape: 'Plus' };
+                  return obj;
+              }} //Sets the default values of connector
+              getConnectorDefaults={(connector, diagram) => {
+                  connector.targetDecorator.shape = "None";
+                  connector.type = "Orthogonal";
+                  return connector;
+              }} 
+              //customization of the node.
+              setNodeTemplate={(obj, diagram) => {
+                  return setNodeTemplate(obj, diagram);
+              }}>
               <Inject services={[DataBinding, HierarchicalTree]}/>
             </DiagramComponent>
           </div>
@@ -104,6 +110,12 @@ function setNodeTemplate(obj, diagram) {
     // marriedTo.style.fill = "none";
     // marriedTo.style.textWrapping = "Wrap";
     // marriedTo.id = obj.id + "_marriedTo";
+    // let tooltip = new Tooltip({
+    // content: 'Tooltip Content',
+    // opensOn: 'Hover',
+    // cssClass: 'e-tooltip-css',
+    // });
+    // tooltip.appendTo('#' + obj.id + "_outerstack");
     innerStack.children = [text, desigText];
     content.children = [image, innerStack];
     return content;
