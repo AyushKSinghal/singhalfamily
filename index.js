@@ -102,22 +102,24 @@ function setNodeTemplate(obj, diagram) {
     desigText.style.fill = "none";
     desigText.style.textWrapping = "Wrap";
     desigText.id = obj.id + "_desig";
-    // let marriedTo = new TextElement();
-    // marriedTo.margin = { left: 0, right: 0, top: 5, bottom: 0 };
-    // marriedTo.content = obj.data.MarriedTo;
-    // marriedTo.style.color = "black";
-    // marriedTo.style.strokeColor = "none";
-    // marriedTo.style.fill = "none";
-    // marriedTo.style.textWrapping = "Wrap";
-    // marriedTo.id = obj.id + "_marriedTo";
-    // let tooltip = new Tooltip({
-    // content: 'Tooltip Content',
-    // opensOn: 'Hover',
-    // cssClass: 'e-tooltip-css',
-    // });
-    // tooltip.appendTo('#' + obj.id + "_outerstack");
     innerStack.children = [text, desigText];
     content.children = [image, innerStack];
+    if(obj.data.isMarried) {
+      let isMarried = new ImageElement();
+      isMarried.width = 50;
+      isMarried.height = 50;
+      isMarried.style.strokeColor = "none";
+      isMarried.source = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPWtImHSo2cYYI1s_02A18G-fN4USWqUuEgp9LdIFV2bdrwAK5&usqp=CAU';
+      isMarried.id = obj.id + "_marriage_pic";
+
+      content.children = [image, innerStack, isMarried];
+    } else {
+      
+      content.children = [image, innerStack];
+    }
+
+    // innerStack.children = [text, desigText];
+    // content.children = [image, innerStack];
     return content;
 }
 
