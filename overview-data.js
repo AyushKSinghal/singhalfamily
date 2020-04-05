@@ -73,7 +73,7 @@ exports.data = [
         'RatingColor': '#D46E89', 'ReportingPerson': 61
     },
     {
-        'Id':65, 'Name': 'Neetu Singhal', 'Designation': 'Businessman',
+        'Id':65, 'Name': 'Amit Singhal', 'Designation': 'Businessman',
         'isMarried': true,
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'true',
         'RatingColor': '#D46E89', 'ReportingPerson': 61
