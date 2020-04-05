@@ -23,7 +23,7 @@ exports.ish = [
         'SpouseCity': 'Delhi',
         'SpouseBirthDate': '10-10-1954',
         'MarriageDate': '26-11-1970',
-        'JamanTithi': '02-12-1951',
+        'BirthDate': '02-12-1951',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
         'RatingColor': '#68C2DE', 'ParentId':30

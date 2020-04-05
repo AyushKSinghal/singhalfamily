@@ -126,15 +126,26 @@ function setNodeTemplate(obj, diagram) {
       // isMarried.source = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPWtImHSo2cYYI1s_02A18G-fN4USWqUuEgp9LdIFV2bdrwAK5&usqp=CAU';
       // isMarried.id = obj.id + "_marriage_pic";
 
-      innerStack.children = [text, getTextElement(obj.data.Designation, "_desig")];
+      innerStack.children = [text, 
+      getTextElement(obj.data.Designation, obj.id + "_desig"),
+      getTextElement("DOB: " + obj.data.BirthDate, obj.id + "_dob"),
+      getTextElement("Married to: " + obj.data.MarriedTo, obj.id + "_marriedTo"),
+      getTextElement("Wedding date: " + obj.data.MarriageDate, obj.id + "_marriageDate"),
+      getTextElement("Spouse DOB: " + obj.data.SpouseBirthDate, obj.id + "_SpouseBirthDate"),
+      getTextElement("Spouse City: " + obj.data.SpouseCity, obj.id + "_SpouseCity"),
+      ];
     } else {
-      innerStack.children = [text, getTextElement(obj.data.Designation, "_desig")];
+      innerStack.children = [text, 
+      getTextElement(obj.data.Designation, obj.id + "_desig"),
+      getTextElement("DOB: " + obj.data.BirthDate, obj.id + "_dob"),
+      ];
     }
     content.children = [image, innerStack];
     return content;
 }
 
 function getTextElement(text, id) {
+  
     let desigText = new TextElement();
     desigText.margin = { left: 0, right: 0, top: 5, bottom: 0 };
     desigText.content = text;
@@ -142,7 +153,7 @@ function getTextElement(text, id) {
     desigText.style.strokeColor = "none";
     desigText.style.fill = "none";
     desigText.style.textWrapping = "Wrap";
-    desigText.id = obj.id + id;
+    desigText.id = id;
     return desigText;
 }
 
