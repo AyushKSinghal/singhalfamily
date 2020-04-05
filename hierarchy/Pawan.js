@@ -11,7 +11,7 @@ exports.paw = [
         'BirthDate': '',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
-        'RatingColor': '#93B85A', 'ReportingPerson': 131
+        'RatingColor': '#93B85A', 'ParentId': 131
     },
     {
         'Id': 133, 'Name': 'Vipul Singhal', 'Designation': 'Techno Functional Manager',
@@ -23,7 +23,7 @@ exports.paw = [
         'BirthDate': '',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
-        'RatingColor': '#93B85A', 'ReportingPerson': 131
+        'RatingColor': '#93B85A', 'ParentId': 131
     },
     {
         'Id': 134, 'Name': 'Vibhore Singhal', 'Designation': 'Software Engineer',
@@ -35,7 +35,7 @@ exports.paw = [
         'BirthDate': '',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
-        'RatingColor': '#93B85A', 'ReportingPerson': 131
+        'RatingColor': '#93B85A', 'ParentId': 131
     },
     {
         'Id': 135, 'Name': 'Akansha Singhal', 'Designation': 'Software Engineer',
@@ -47,6 +47,6 @@ exports.paw = [
         'BirthDate': '',
         'Description': '',
         'ImageUrl': 'https://cdn2.iconfinder.com/data/icons/business-and-finance-related-hand-gestures/256/face_female_blank_user_avatar_mannequin-512.png', 'IsExpand': 'false',
-        'RatingColor': '#93B85A', 'ReportingPerson': 131
+        'RatingColor': '#93B85A', 'ParentId': 131
     },
 ];

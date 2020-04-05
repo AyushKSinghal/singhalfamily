@@ -45,7 +45,7 @@ export class Overview extends SampleBase {
               }} //Sets the parent and child relationship of DataSource.
               dataSourceSettings={{
                   id: "Id",
-                  parentId: "ReportingPerson",
+                  parentId: "ParentId",
                   dataSource: new DataManager(data)
               }} //Sets the default values of Node
               getNodeDefaults={(obj, diagram) => {
