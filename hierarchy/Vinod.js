@@ -63,7 +63,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 32
     },
     {
-        'Id': 36, 'Name': 'Arnika Singhal', 'Designation': 'Student',
+        'Id': 37, 'Name': 'Arnika Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -75,7 +75,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 32
     },
     {
-        'Id': 36, 'Name': 'Taruni Singhal', 'Designation': 'Student',
+        'Id': 38, 'Name': 'Taruni Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -87,7 +87,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 33
     },
     {
-        'Id': 36, 'Name': 'Pratyaksh Singhal', 'Designation': 'Student',
+        'Id': 39, 'Name': 'Pratyaksh Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -99,7 +99,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 33
     },
     {
-        'Id': 36, 'Name': 'Vaani Singhal', 'Designation': 'Student',
+        'Id': 40, 'Name': 'Vaani Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -111,7 +111,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 33
     },
     {
-        'Id': 36, 'Name': 'Kushagra Singhal', 'Designation': 'Student',
+        'Id': 41, 'Name': 'Kushagra Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -123,7 +123,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 34
     },
     {
-        'Id': 36, 'Name': 'Vinamra Singhal', 'Designation': 'Student',
+        'Id': 42, 'Name': 'Vinamra Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
