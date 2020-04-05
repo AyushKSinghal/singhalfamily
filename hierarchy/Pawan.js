@@ -74,7 +74,7 @@ exports.paw = [
         'RatingColor': '#93B85A', 'ParentId': 132
     },
     {
-        'Id': 138, 'Name': '* Singhal', 'Designation': 'Infant',
+        'Id': 138, 'Name': '* Singhal', 'Designation': 'Baby',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -86,7 +86,7 @@ exports.paw = [
         'RatingColor': '#93B85A', 'ParentId': 132
     },
     {
-        'Id': 139, 'Name': '* Singhal', 'Designation': 'Student',
+        'Id': 139, 'Name': '* Singhal', 'Designation': 'Baby',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -110,7 +110,7 @@ exports.paw = [
         'RatingColor': '#93B85A', 'ParentId': 133
     },
     {
-        'Id': 141, 'Name': '* Singhal', 'Designation': 'Infant',
+        'Id': 141, 'Name': '* Singhal', 'Designation': 'Baby',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',

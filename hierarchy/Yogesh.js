@@ -62,7 +62,7 @@ exports.yog = [
         'RatingColor': '#93B85A', 'ParentId': 162
     },
     {
-        'Id': 167, 'Name': 'Krisha Singhal', 'Designation': 'Infant',
+        'Id': 167, 'Name': 'Krisha Singhal', 'Designation': 'Baby',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
