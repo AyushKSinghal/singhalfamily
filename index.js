@@ -79,7 +79,9 @@ export class Overview extends SampleBase {
             background: "#f7f7f7",
             position: "absolute"
         }}>
+        <OverviewComponent id="overview" style={{ top: "30px" }} sourceID="diagram" width={"100%"} height={"150px"}/>
         </div>
+        
       </div>);
     }
 }
