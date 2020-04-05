@@ -1,8 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Local data for diagram layouts
- */
 exports.pur = [
     {
         'Id': 162, 'Name': 'Ankur Singhal', 'Designation': 'Techno Functional Manager',

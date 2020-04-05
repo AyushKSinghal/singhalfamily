@@ -1,0 +1,19 @@
+### Mac ###
+**/.DS_Store
+
+### IntelliJ IDEA ###
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+
+### Eclipse ###
+**/.editorconfig
+**/.classpath
+**/.project
+**/.checkstyle
+**/.settings
+**/*.launch
+**/*.swp
+**/bin
+

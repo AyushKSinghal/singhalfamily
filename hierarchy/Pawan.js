@@ -1,8 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Local data for diagram layouts
- */
 exports.paw = [
     {
         'Id': 132, 'Name': 'Rahul Singhal', 'Designation': 'Techno Functional Manager',

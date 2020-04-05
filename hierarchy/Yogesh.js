@@ -1,8 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Local data for diagram layouts
- */
 exports.yog = [
     {
         'Id': 162, 'Name': 'Arpit Singhal', 'Designation': 'Techno Functional Engineer',

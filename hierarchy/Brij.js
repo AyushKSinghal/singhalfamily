@@ -1,8 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Local data for diagram layouts
- */
 exports.bri = [
     {
         'Id': 222, 'Name': 'Vishu Singhal', 'Designation': 'Housewife',

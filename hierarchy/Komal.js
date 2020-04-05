@@ -1,8 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Local data for diagram layouts
- */
 exports.kom = [
     {
         'Id': 252, 'Name': 'Vikas Singhal', 'Designation': 'Software Engineer',

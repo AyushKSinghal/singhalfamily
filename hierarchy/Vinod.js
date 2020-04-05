@@ -1,8 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Local data for diagram layouts
- */
 exports.vin = [
     {
         'Id': 32, 'Name': 'Vinay Singhal', 'Designation': 'IBM Risk Manager',
