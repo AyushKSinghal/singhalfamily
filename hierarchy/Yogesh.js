@@ -37,4 +37,40 @@ exports.yog = [
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
         'RatingColor': '#93B85A', 'ParentId': 161
     },
+    {
+        'Id': 106, 'Name': 'Avyukt Singhal', 'Designation': 'Student',
+        'isMarried': false,
+        'MarriedTo': '',
+        'SpouseCity': '',
+        'SpouseBirthDate': '',
+        'MarriageDate': '',
+        'BirthDate': '11-01-2016',
+        'Description': '',
+        'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
+        'RatingColor': '#93B85A', 'ParentId': 162
+    },
+    {
+        'Id': 106, 'Name': 'Vatsal Singhal', 'Designation': 'Baby',
+        'isMarried': false,
+        'MarriedTo': '',
+        'SpouseCity': '',
+        'SpouseBirthDate': '',
+        'MarriageDate': '',
+        'BirthDate': '10-06-2018',
+        'Description': '',
+        'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
+        'RatingColor': '#93B85A', 'ParentId': 162
+    },
+    {
+        'Id': 106, 'Name': 'Krisha Singhal', 'Designation': 'Infant',
+        'isMarried': false,
+        'MarriedTo': '',
+        'SpouseCity': '',
+        'SpouseBirthDate': '',
+        'MarriageDate': '',
+        'BirthDate': '23-03-2020',
+        'Description': '',
+        'ImageUrl': 'https://cdn2.iconfinder.com/data/icons/business-and-finance-related-hand-gestures/256/face_female_blank_user_avatar_mannequin-512.png', 'IsExpand': 'false',
+        'RatingColor': '#93B85A', 'ParentId': 163
+    },
 ];
