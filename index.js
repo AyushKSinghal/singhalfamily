@@ -4,15 +4,24 @@ import * as React from "react";
 import { HierarchicalTree, StackPanel, ImageElement, TextElement, SnapConstraints, DiagramComponent, Inject, DataBinding, OverviewComponent, DiagramTools } from "@syncfusion/ej2-react-diagrams";
 import { SampleBase } from './sample-base';
 import { DataManager } from "@syncfusion/ej2-data";
-import { data } from './overview-data';
-import { testdata } from './hierarchy/testdata';
 import { Tooltip } from '@syncfusion/ej2-popups';
 import { DropDownList } from '@syncfusion/ej2-dropdowns';
 import { Button } from '@syncfusion/ej2-buttons';
 
-// for (var i = 0; i < testdata.length; i++) {
-//   data.push(testdata[i]);
-// }
+
+import { ish } from './hierarchy/Ishwar.js';
+import { vin } from './hierarchy/Vinod.js';
+import { pra } from './hierarchy/Praveen.js';
+import { pur } from './hierarchy/Purshottam.js';
+import { paw } from './hierarchy/Pawan.js';
+import { yog } from './hierarchy/Yogesh.js';
+import { muk } from './hierarchy/Mukesh.js';
+import { bri } from './hierarchy/Brij.js';
+import { kom } from './hierarchy/Komal.js';
+
+//Initialize Hierarchy
+var data = ish
+setHierarchy()
 
 let diagramInstance;
 export class Overview extends SampleBase {
@@ -127,5 +136,30 @@ function setNodeTemplate(obj, diagram) {
     content.children = [image, innerStack];
     return content;
 }
-
+function setHierarchy() {
+  for (var i = 0; i < vin.length; i++) {
+    data.push(vin[i]);
+  }
+  for (var i = 0; i < pra.length; i++) {
+    data.push(pra[i]);
+  }
+  for (var i = 0; i < pur.length; i++) {
+    data.push(pur[i]);
+  }
+  for (var i = 0; i < paw.length; i++) {
+    data.push(paw[i]);
+  }
+  for (var i = 0; i < yog.length; i++) {
+    data.push(yog[i]);
+  }
+  for (var i = 0; i < muk.length; i++) {
+    data.push(muk[i]);
+  }
+  for (var i = 0; i < bri.length; i++) {
+    data.push(bri[i]);
+  }
+  for (var i = 0; i < kom.length; i++) {
+    data.push(kom[i]);
+  }
+}
 render(<Overview />, document.getElementById('sample'));
