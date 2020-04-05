@@ -10,9 +10,9 @@ import { Tooltip } from '@syncfusion/ej2-popups';
 import { DropDownList } from '@syncfusion/ej2-dropdowns';
 import { Button } from '@syncfusion/ej2-buttons';
 
-for (var i = 0; i < testdata.length; i++) {
-  data.push(testdata[i]);
-}
+// for (var i = 0; i < testdata.length; i++) {
+//   data.push(testdata[i]);
+// }
 
 let diagramInstance;
 export class Overview extends SampleBase {
@@ -109,22 +109,22 @@ function setNodeTemplate(obj, diagram) {
     desigText.id = obj.id + "_desig";
     innerStack.children = [text, desigText];
     content.children = [image, innerStack];
-    if(obj.data.isMarried) {
-      let isMarried = new ImageElement();
-      isMarried.width = 50;
-      isMarried.height = 50;
-      isMarried.style.strokeColor = "none";
-      isMarried.source = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPWtImHSo2cYYI1s_02A18G-fN4USWqUuEgp9LdIFV2bdrwAK5&usqp=CAU';
-      isMarried.id = obj.id + "_marriage_pic";
+    // if(obj.data.isMarried) {
+    //   let isMarried = new ImageElement();
+    //   isMarried.width = 50;
+    //   isMarried.height = 50;
+    //   isMarried.style.strokeColor = "none";
+    //   isMarried.source = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPWtImHSo2cYYI1s_02A18G-fN4USWqUuEgp9LdIFV2bdrwAK5&usqp=CAU';
+    //   isMarried.id = obj.id + "_marriage_pic";
 
-      content.children = [image, innerStack, isMarried];
-    } else {
+    //   content.children = [image, innerStack, isMarried];
+    // } else {
       
-      content.children = [image, innerStack];
-    }
+    //   content.children = [image, innerStack];
+    // }
 
-    // innerStack.children = [text, desigText];
-    // content.children = [image, innerStack];
+    innerStack.children = [text, desigText];
+    content.children = [image, innerStack];
     return content;
 }
 
