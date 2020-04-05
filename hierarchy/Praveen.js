@@ -7,7 +7,7 @@ exports.pra = [
         'isMarried': true,
         'MarriedTo': 'Ritu Rani',
         'SpouseCity': 'Purbaliyan',
-        'SpouseBirthDate': '',
+        'SpouseBirthDate': '09-06-197*',
         'MarriageDate': '06-05-1996',
         'BirthDate': '07-06-1973',
         'Description': '',
@@ -29,9 +29,9 @@ exports.pra = [
     {
         'Id':64, 'Name': 'Amit Singhal', 'Designation': 'Businessman',
         'isMarried': true,
-        'MarriedTo': 'Punita Rani',
+        'MarriedTo': 'Sunita Rani',
         'SpouseCity': 'Delhi',
-        'SpouseBirthDate': '12-2-1976',
+        'SpouseBirthDate': '12-02-1976',
         'MarriageDate': '15-04-2001',
         'BirthDate': '16-02-1976',
         'Description': '',
@@ -55,7 +55,7 @@ exports.pra = [
         'isMarried': true,
         'MarriedTo': 'Rashi Rani',
         'SpouseCity': 'Dehradun',
-        'SpouseBirthDate': '09-05-1982',
+        'SpouseBirthDate': '09-06-1982',
         'MarriageDate': '16-02-2010',
         'BirthDate': '21-10-1981',
         'Description': '',
@@ -75,7 +75,7 @@ exports.pra = [
         'RatingColor': '#93B85A', 'ParentId': 61
     },
     {
-        'Id': 68, 'Name': 'Aakrati Singhal', 'Designation': 'Student',
+        'Id': 68, 'Name': 'Akriti Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -93,7 +93,7 @@ exports.pra = [
         'SpouseCity': '',
         'SpouseBirthDate': '',
         'MarriageDate': '',
-        'BirthDate': '26-06-1998',
+        'BirthDate': '25-06-1999',
         'Description': '',
         'ImageUrl': 'https://cdn2.iconfinder.com/data/icons/business-and-finance-related-hand-gestures/256/face_female_blank_user_avatar_mannequin-512.png', 'IsExpand': 'false',
         'RatingColor': '#93B85A', 'ParentId': 62
@@ -123,7 +123,7 @@ exports.pra = [
         'RatingColor': '#93B85A', 'ParentId': 64
     },
     {
-        'Id': 72, 'Name': '* Singhal', 'Designation': 'Student',
+        'Id': 72, 'Name': 'Janisha Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -135,7 +135,7 @@ exports.pra = [
         'RatingColor': '#93B85A', 'ParentId': 64
     },
     {
-        'Id': 73, 'Name': 'Atharv Singhal', 'Designation': 'Student',
+        'Id': 73, 'Name': 'Atharva Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
