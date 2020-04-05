@@ -5,14 +5,14 @@ import { HierarchicalTree, StackPanel, ImageElement, TextElement, SnapConstraint
 import { SampleBase } from './sample-base';
 import { DataManager } from "@syncfusion/ej2-data";
 import { data } from './overview-data';
-import { testdata } from './testdata';
+import { testdata } from './hierarchy/testdata';
 import { Tooltip } from '@syncfusion/ej2-popups';
 import { DropDownList } from '@syncfusion/ej2-dropdowns';
 import { Button } from '@syncfusion/ej2-buttons';
 
-// for (var i = 0; i < testdata.length; i++) {
-//   data.push(testdata[i]);
-// }
+for (var i = 0; i < testdata.length; i++) {
+  data.push(testdata[i]);
+}
 
 let diagramInstance;
 export class Overview extends SampleBase {
