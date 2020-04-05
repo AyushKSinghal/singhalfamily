@@ -85,7 +85,7 @@ export class Overview extends SampleBase {
       </div>);
     }
 }
-//<OverviewComponent id="overview" style={{ top: "30px" }} sourceID="diagram" width={"100%"} height={"150px"}/>
+
 //Funtion to add the Template of the Node.
 function setNodeTemplate(obj, diagram) {
     let content = new StackPanel();
