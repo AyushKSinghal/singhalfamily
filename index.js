@@ -116,7 +116,7 @@ function setNodeTemplate(obj, diagram) {
     desigText.style.fill = "none";
     desigText.style.textWrapping = "Wrap";
     desigText.id = obj.id + "_desig";
-    innerStack.children = [text, desigText];
+    // innerStack.children = [text, desigText];
 
     if(obj.data.isMarried) {
       // let isMarried = new ImageElement();
@@ -128,7 +128,7 @@ function setNodeTemplate(obj, diagram) {
 
       innerStack.children = [text, getTextElement(obj.data.Designation, "_desig")];
     } else {
-      innerStack.children = [text, desigText];
+      innerStack.children = [text, getTextElement(obj.data.Designation, "_desig")];
     }
     content.children = [image, innerStack];
     return content;
