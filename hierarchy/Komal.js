@@ -8,7 +8,7 @@ exports.kom = [
         'SpouseCity': '',
         'SpouseBirthDate': '',
         'MarriageDate': '',
-        'BirthDate': '',
+        'BirthDate': '18-12-1991',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
         'RatingColor': '#93B85A', 'ParentId': 251
@@ -20,7 +20,7 @@ exports.kom = [
         'SpouseCity': '',
         'SpouseBirthDate': '',
         'MarriageDate': '',
-        'BirthDate': '',
+        'BirthDate': '14-01-1994',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
         'RatingColor': '#93B85A', 'ParentId': 251
