@@ -38,7 +38,7 @@ exports.yog = [
         'RatingColor': '#93B85A', 'ParentId': 161
     },
     {
-        'Id': 106, 'Name': 'Avyukt Singhal', 'Designation': 'Student',
+        'Id': 165, 'Name': 'Avyukt Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -50,7 +50,7 @@ exports.yog = [
         'RatingColor': '#93B85A', 'ParentId': 162
     },
     {
-        'Id': 106, 'Name': 'Vatsal Singhal', 'Designation': 'Baby',
+        'Id': 166, 'Name': 'Vatsal Singhal', 'Designation': 'Baby',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -62,7 +62,7 @@ exports.yog = [
         'RatingColor': '#93B85A', 'ParentId': 162
     },
     {
-        'Id': 106, 'Name': 'Krisha Singhal', 'Designation': 'Infant',
+        'Id': 167, 'Name': 'Krisha Singhal', 'Designation': 'Infant',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
