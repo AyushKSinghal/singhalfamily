@@ -117,25 +117,35 @@ function setNodeTemplate(obj, diagram) {
     desigText.style.textWrapping = "Wrap";
     desigText.id = obj.id + "_desig";
     innerStack.children = [text, desigText];
-    content.children = [image, innerStack];
-    // if(obj.data.isMarried) {
-    //   let isMarried = new ImageElement();
-    //   isMarried.width = 50;
-    //   isMarried.height = 50;
-    //   isMarried.style.strokeColor = "none";
-    //   isMarried.source = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPWtImHSo2cYYI1s_02A18G-fN4USWqUuEgp9LdIFV2bdrwAK5&usqp=CAU';
-    //   isMarried.id = obj.id + "_marriage_pic";
 
-    //   content.children = [image, innerStack, isMarried];
-    // } else {
-      
-    //   content.children = [image, innerStack];
-    // }
+    if(obj.data.isMarried) {
+      // let isMarried = new ImageElement();
+      // isMarried.width = 50;
+      // isMarried.height = 50;
+      // isMarried.style.strokeColor = "none";
+      // isMarried.source = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPWtImHSo2cYYI1s_02A18G-fN4USWqUuEgp9LdIFV2bdrwAK5&usqp=CAU';
+      // isMarried.id = obj.id + "_marriage_pic";
 
-    innerStack.children = [text, desigText];
+      innerStack.children = [text, getTextElement(obj.data.Designation, "_desig")];
+    } else {
+      innerStack.children = [text, desigText];
+    }
     content.children = [image, innerStack];
     return content;
 }
+
+function getTextElement(text, id) {
+    let desigText = new TextElement();
+    desigText.margin = { left: 0, right: 0, top: 5, bottom: 0 };
+    desigText.content = text;
+    desigText.style.color = "black";
+    desigText.style.strokeColor = "none";
+    desigText.style.fill = "none";
+    desigText.style.textWrapping = "Wrap";
+    desigText.id = obj.id + id;
+    return desigText;
+}
+
 function setHierarchy() {
   for (var i = 0; i < vin.length; i++) {
     data.push(vin[i]);
