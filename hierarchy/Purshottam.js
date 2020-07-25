@@ -30,7 +30,7 @@ exports.pur = [
         'isMarried': true,
         'MarriedTo': 'Sulabh Goyal',
         'SpouseCity': 'Ranchi (Chandosi)',
-        'SpouseBirthDate': '08-02-1985',
+        'SpouseBirthDate': '10-02-1985',
         'MarriageDate': '29-11-2012',
         'BirthDate': '10-04-1989',
         'Description': '',

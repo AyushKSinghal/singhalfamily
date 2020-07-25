@@ -56,7 +56,7 @@ exports.yog = [
         'SpouseCity': '',
         'SpouseBirthDate': '',
         'MarriageDate': '',
-        'BirthDate': '10-06-2018',
+        'BirthDate': '13-07-2017',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
         'RatingColor': '#93B85A', 'ParentId': 162
