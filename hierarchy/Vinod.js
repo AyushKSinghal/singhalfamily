@@ -39,9 +39,9 @@ exports.vin = [
         'RatingColor': '#D46E89', 'ParentId': 31
     },
     {
-        'Id': 35, 'Name': 'Princy Singhal', 'Designation': 'Homemaker',
+        'Id': 35, 'Name': 'Princy Agarwal', 'Designation': 'Homemaker',
         'isMarried': true,
-        'MarriedTo': 'Paresh Mittal',
+        'MarriedTo': 'Paresh Agarwal',
         'SpouseCity': 'Pilibhit',
         'SpouseBirthDate': '07-01-1974',
         'MarriageDate': '04-12-1998',
