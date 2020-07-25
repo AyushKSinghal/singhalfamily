@@ -51,7 +51,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 31
     },
     {
-        'Id': 36, 'Name': 'Ananya Singhal', 'Designation': 'Student',
+        'Id': 36, 'Name': 'Ananya Singhal', 'Designation': 'Student - Researcher',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -75,7 +75,7 @@ exports.vin = [
         'RatingColor': '#93B85A', 'ParentId': 32
     },
     {
-        'Id': 38, 'Name': 'Taruni Singhal', 'Designation': 'Student',
+        'Id': 38, 'Name': 'Taruni Singhal', 'Designation': 'Student - SRCC, Delhi',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
