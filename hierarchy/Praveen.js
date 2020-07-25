@@ -159,7 +159,7 @@ exports.pra = [
         'RatingColor': '#93B85A', 'ParentId': 65
     },
     {
-        'Id': 75, 'Name': 'Aartha Singhal', 'Designation': 'Student',
+        'Id': 75, 'Name': 'Aarya Singhal', 'Designation': 'Student',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
@@ -167,7 +167,7 @@ exports.pra = [
         'MarriageDate': '',
         'BirthDate': '27-08-2012',
         'Description': '',
-        'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
+        'ImageUrl': 'https://cdn2.iconfinder.com/data/icons/business-and-finance-related-hand-gestures/256/face_female_blank_user_avatar_mannequin-512.png', 'IsExpand': 'false',
         'RatingColor': '#93B85A', 'ParentId': 66
     },
 ];
