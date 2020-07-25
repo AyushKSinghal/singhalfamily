@@ -75,7 +75,7 @@ exports.pra = [
         'RatingColor': '#93B85A', 'ParentId': 61
     },
     {
-        'Id': 68, 'Name': 'Akriti Singhal', 'Designation': 'Student',
+        'Id': 68, 'Name': 'Akriti Singhal', 'Designation': 'Software Engineer',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
