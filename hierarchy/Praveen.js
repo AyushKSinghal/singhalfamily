@@ -5,7 +5,7 @@ exports.pra = [
         'Id': 62, 'Name': 'Naval Singhal', 
         'Designation': 'Businessman - MP',
         'isMarried': true,
-        'MarriedTo': 'Ritu Rani',
+        'MarriedTo': 'Ritu Singhal',
         'SpouseCity': 'Purbaliyan',
         'SpouseBirthDate': '09-06-197*',
         'MarriageDate': '06-05-1996',
@@ -17,7 +17,7 @@ exports.pra = [
     {
         'Id': 63, 'Name': 'Rinkal Dev', 'Designation': 'Businessman',
         'isMarried': true,
-        'MarriedTo': 'Aradana Rani',
+        'MarriedTo': 'Aradana Singhal',
         'SpouseCity': 'Delhi',
         'SpouseBirthDate': '16-09-1974',
         'MarriageDate': '',
@@ -29,7 +29,7 @@ exports.pra = [
     {
         'Id':64, 'Name': 'Amit Singhal', 'Designation': 'Businessman',
         'isMarried': true,
-        'MarriedTo': 'Sunita Rani',
+        'MarriedTo': 'Sunita Singhal',
         'SpouseCity': 'Delhi',
         'SpouseBirthDate': '12-02-1976',
         'MarriageDate': '15-04-2001',
@@ -41,7 +41,7 @@ exports.pra = [
     {
         'Id':65, 'Name': 'Sumit Singhal', 'Designation': 'Businessman',
         'isMarried': true,
-        'MarriedTo': 'Parul Rani',
+        'MarriedTo': 'Parul Singhal',
         'SpouseCity': 'Muzaffarnagar',
         'SpouseBirthDate': '27-09-1974',
         'MarriageDate': '11-12-2005',
@@ -51,9 +51,9 @@ exports.pra = [
         'RatingColor': '#D46E89', 'ParentId': 61
     },
     {
-        'Id': 66, 'Name': 'Ankit Singhal', 'Designation': 'Indian Army :)',
+        'Id': 66, 'Name': 'Ankit Singhal', 'Designation': 'Indian Army',
         'isMarried': true,
-        'MarriedTo': 'Rashi Rani',
+        'MarriedTo': 'Rashi Singhal',
         'SpouseCity': 'Dehradun',
         'SpouseBirthDate': '09-06-1982',
         'MarriageDate': '16-02-2010',
