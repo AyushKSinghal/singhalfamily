@@ -4,7 +4,7 @@ exports.bri = [
     {
         'Id': 222, 'Name': 'Vishu Singhal', 'Designation': 'Housewife',
         'isMarried': true,
-        'MarriedTo': 'Anshul Ji',
+        'MarriedTo': 'Anshul Ji - Cold Storage',
         'SpouseCity': 'Gango (Saharanpur)',
         'SpouseBirthDate': '',
         'MarriageDate': '26-06-2012',
