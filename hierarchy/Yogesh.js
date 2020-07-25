@@ -4,7 +4,7 @@ exports.yog = [
     {
         'Id': 162, 'Name': 'Arpit Singhal', 'Designation': 'Techno Functional Engineer',
         'isMarried': true,
-        'MarriedTo': 'Swati Rani',
+        'MarriedTo': 'Swati Singhal',
         'SpouseCity': 'Meerut',
         'SpouseBirthDate': '10-10-1987',
         'MarriageDate': '20-01-2012',
@@ -16,7 +16,7 @@ exports.yog = [
     {
         'Id': 163, 'Name': 'Ayush Singhal', 'Designation': 'Software Engineer',
         'isMarried': true,
-        'MarriedTo': 'Richa Rani',
+        'MarriedTo': 'Richa Singhal',
         'SpouseCity': 'Muzaffarnagar',
         'SpouseBirthDate': '13-12-1990',
         'MarriageDate': '05-06-2015',
@@ -28,7 +28,7 @@ exports.yog = [
     {
         'Id': 164, 'Name': 'Achintya Singhal', 'Designation': 'Software Engineer',
         'isMarried': true,
-        'MarriedTo': 'Chhavi Rani',
+        'MarriedTo': 'Chhavi Singhal',
         'SpouseCity': 'Delhi',
         'SpouseBirthDate': '',
         'MarriageDate': '29-11-2019',
