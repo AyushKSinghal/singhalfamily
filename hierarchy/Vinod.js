@@ -4,7 +4,7 @@ exports.vin = [
     {
         'Id': 32, 'Name': 'Vinay Singhal', 'Designation': 'IBM Risk Manager',
         'isMarried': true,
-        'MarriedTo': 'Renu Rani',
+        'MarriedTo': 'Renu Singhal',
         'SpouseCity': 'Saharanpur',
         'SpouseBirthDate': '24-05-1977',
         'MarriageDate': '28-01-1999',
@@ -16,7 +16,7 @@ exports.vin = [
     {
         'Id': 33, 'Name': 'Vineet Singhal (1973-2008)', 'Designation': 'Businessman',
         'isMarried': true,
-        'MarriedTo': 'Ruchi Rani',
+        'MarriedTo': 'Ruchi Singhal',
         'SpouseCity': 'Gola Gokharnath',
         'SpouseBirthDate': '05-08-1978',
         'MarriageDate': '23-04-2000',
@@ -29,7 +29,7 @@ exports.vin = [
     {
         'Id': 34, 'Name': 'Vipin Singhal', 'Designation': 'Businessman',
         'isMarried': true,
-        'MarriedTo': 'Pooja Rani',
+        'MarriedTo': 'Pooja Singhal',
         'SpouseCity': 'Hardoi',
         'SpouseBirthDate': '12-11-1978',
         'MarriageDate': '13-12-2001',
