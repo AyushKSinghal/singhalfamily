@@ -4,7 +4,7 @@ exports.muk = [
     {
         'Id': 192, 'Name': 'Divik Singhal', 'Designation': 'Software Analyst',
         'isMarried': true,
-        'MarriedTo': 'Akansha Rani',
+        'MarriedTo': 'Akansha Singhal',
         'SpouseCity': 'Vahalna (Muzaffarnagar)',
         'SpouseBirthDate': '',
         'MarriageDate': '12-06-2017',
