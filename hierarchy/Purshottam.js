@@ -14,7 +14,7 @@ exports.pur = [
         'RatingColor': '#93B85A', 'ParentId': 101
     },
     {
-        'Id': 103, 'Name': 'Shradha Gupta', 'Designation': 'Yoga trainer',
+        'Id': 103, 'Name': 'Shradha Gupta', 'Designation': 'Fitness trainer',
         'isMarried': true,
         'MarriedTo': 'Manish Gupta',
         'SpouseCity': 'Deband',
