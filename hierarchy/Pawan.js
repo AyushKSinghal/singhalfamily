@@ -4,7 +4,7 @@ exports.paw = [
     {
         'Id': 132, 'Name': 'Rahul Singhal', 'Designation': 'Techno Functional Manager',
         'isMarried': true,
-        'MarriedTo': 'Khusboo Rani',
+        'MarriedTo': 'Khusboo Singhal',
         'SpouseCity': 'Saharanpur',
         'SpouseBirthDate': '07-07-1985',
         'MarriageDate': '18-11-2010',
@@ -16,7 +16,7 @@ exports.paw = [
     {
         'Id': 133, 'Name': 'Vipul Singhal', 'Designation': 'Techno Functional Manager',
         'isMarried': true,
-        'MarriedTo': 'Shruti Rani',
+        'MarriedTo': 'Shruti Singhal',
         'SpouseCity': 'Bulandshar',
         'SpouseBirthDate': '',
         'MarriageDate': '18-04-2012',
@@ -28,7 +28,7 @@ exports.paw = [
     {
         'Id': 134, 'Name': 'Vibhore Singhal', 'Designation': 'Software Engineer',
         'isMarried': true,
-        'MarriedTo': 'Charu Rani',
+        'MarriedTo': 'Charu Singhal',
         'SpouseCity': 'Delhi',
         'SpouseBirthDate': '',
         'MarriageDate': '16-01-2016',
