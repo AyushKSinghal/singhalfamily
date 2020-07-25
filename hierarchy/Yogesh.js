@@ -31,7 +31,7 @@ exports.yog = [
         'MarriedTo': 'Chhavi Rani',
         'SpouseCity': 'Delhi',
         'SpouseBirthDate': '',
-        'MarriageDate': '',
+        'MarriageDate': '29-11-2019',
         'BirthDate': '07-11-1988',
         'Description': '',
         'ImageUrl': 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREmFx6Ff6QaAYkenrTeT5v29yCVjycSXOxkfU-mh9tRJoxMfd0', 'IsExpand': 'false',
