@@ -4,7 +4,7 @@ exports.pur = [
     {
         'Id': 102, 'Name': 'Ankur Singhal', 'Designation': 'Techno Functional Manager',
         'isMarried': true,
-        'MarriedTo': 'Nidhi Rani - Teacher',
+        'MarriedTo': 'Nidhi Kansal - Teacher and Youtuber',
         'SpouseCity': 'Modinagar',
         'SpouseBirthDate': '20-07-1983',
         'MarriageDate': '17-01-2007',
