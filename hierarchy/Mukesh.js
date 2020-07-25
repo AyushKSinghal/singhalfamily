@@ -16,10 +16,10 @@ exports.muk = [
     {
         'Id': 193, 'Name': 'Deepanshi Singhal', 'Designation': 'Manager',
         'isMarried': false,
-        'MarriedTo': '*',
-        'SpouseCity': '',
+        'MarriedTo': 'Abhishek Ji',
+        'SpouseCity': 'Silliguri',
         'SpouseBirthDate': '',
-        'MarriageDate': '',
+        'MarriageDate': '*10-12-2020',
         'BirthDate': '12-07-1991',
         'Description': '',
         'ImageUrl': 'https://cdn2.iconfinder.com/data/icons/business-and-finance-related-hand-gestures/256/face_female_blank_user_avatar_mannequin-512.png', 'IsExpand': 'false',
