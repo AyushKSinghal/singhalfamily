@@ -62,7 +62,7 @@ exports.paw = [
         'RatingColor': '#93B85A', 'ParentId': 132
     },
     {
-        'Id': 137, 'Name': '* Singhal', 'Designation': 'Baby',
+        'Id': 137, 'Name': 'Myra Singhal', 'Designation': 'Baby',
         'isMarried': false,
         'MarriedTo': '',
         'SpouseCity': '',
