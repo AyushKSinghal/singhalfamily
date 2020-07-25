@@ -26,9 +26,9 @@ exports.pur = [
         'RatingColor': '#93B85A', 'ParentId': 101
     },
     {
-        'Id': 104, 'Name': 'Sakshi Goyal', 'Designation': 'Homemaker',
+        'Id': 104, 'Name': 'Sakshi Agarwal', 'Designation': 'Homemaker',
         'isMarried': true,
-        'MarriedTo': 'Sulabh Goyal',
+        'MarriedTo': 'Sulabh Agarwal',
         'SpouseCity': 'Ranchi (Chandosi)',
         'SpouseBirthDate': '10-02-1985',
         'MarriageDate': '29-11-2012',
