@@ -16,7 +16,7 @@ exports.muk = [
     {
         'Id': 193, 'Name': 'Deepanshi Singhal', 'Designation': 'Manager',
         'isMarried': false,
-        'MarriedTo': 'Abhishek Ji',
+        'MarriedTo': 'Abhishek Chachan - Digital Marketing Business',
         'SpouseCity': 'Silliguri',
         'SpouseBirthDate': '',
         'MarriageDate': '*10-12-2020',
