@@ -89,7 +89,7 @@ exports.ish = [
         'RatingColor': '#93B85A', 'ParentId': 30
     },
     {
-        'Id': 221, 'Name': 'Brij Mohan', 'Designation': 'Businessman',
+        'Id': 221, 'Name': 'Brij Mohan Singhal', 'Designation': 'Businessman',
         'isMarried': true,
         'MarriedTo': 'Vandana Rani',
         'SpouseCity': 'Muzaffarnagar',
