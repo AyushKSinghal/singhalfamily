@@ -16,7 +16,7 @@ exports.vin = [
     {
         'Id': 33, 'Name': 'Vineet Singhal (1973-2008)', 'Designation': 'Businessman',
         'isMarried': true,
-        'MarriedTo': 'Ruchi Singhal',
+        'MarriedTo': 'Ruchi Singhal - Business women - Handicraft',
         'SpouseCity': 'Gola Gokharnath',
         'SpouseBirthDate': '05-08-1978',
         'MarriageDate': '23-04-2000',
@@ -27,9 +27,9 @@ exports.vin = [
         'RatingColor': '#68C2DE', 'ParentId': 31
     },
     {
-        'Id': 34, 'Name': 'Vipin Singhal', 'Designation': 'Businessman',
+        'Id': 34, 'Name': 'Vipin Singhal', 'Designation': 'Businessman - Furnace and Pipe manufacturing',
         'isMarried': true,
-        'MarriedTo': 'Pooja Singhal',
+        'MarriedTo': 'Pooja Singhal - Business women - Handicraft',
         'SpouseCity': 'Hardoi',
         'SpouseBirthDate': '12-11-1978',
         'MarriageDate': '13-12-2001',
@@ -41,7 +41,7 @@ exports.vin = [
     {
         'Id': 35, 'Name': 'Princy Agarwal', 'Designation': 'Homemaker',
         'isMarried': true,
-        'MarriedTo': 'Paresh Agarwal',
+        'MarriedTo': 'Paresh Agarwal - Rice mills, and Power plant',
         'SpouseCity': 'Pilibhit',
         'SpouseBirthDate': '07-01-1974',
         'MarriageDate': '04-12-1998',
