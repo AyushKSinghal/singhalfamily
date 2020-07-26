@@ -30,7 +30,7 @@ exports.pur = [
         'isMarried': true,
         'MarriedTo': 'Sulabh Agarwal',
         'SpouseCity': 'Ranchi (Chandosi)',
-        'SpouseBirthDate': '10-02-1985',
+        'SpouseBirthDate': '08-02-1985',
         'MarriageDate': '29-11-2012',
         'BirthDate': '10-04-1989',
         'Description': '',
